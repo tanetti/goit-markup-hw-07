@@ -1,12 +1,3 @@
-body {
-  background-color: #fff;
-  color: #757575;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  letter-spacing: 0.03em;
-}
-
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -16,10 +7,10 @@ body {
 
 .title {
   margin-bottom: 50px;
-  color: #212121;
+
+  color: $title-text-color;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
 }
-/*# sourceMappingURL=main.css.map */

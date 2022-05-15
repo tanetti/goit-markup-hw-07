@@ -1,3 +1,3 @@
-# goit-markup-hw-06
+# goit-markup-hw-07
 
-Sixth homework GoIT
+Seventh homework GoIT

@@ -1,3 +1,8 @@
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -6,6 +11,8 @@
 }
 
 .title {
+  @extend %no-margin;
+
   margin-bottom: 50px;
 
   color: $title-text-color;
@@ -13,4 +20,74 @@
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+}
+
+.image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.logo {
+  @extend %link-decor;
+
+  color: $accent-color;
+  font-family: $logo-font-family;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+
+  &--header_size {
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 24px;
+    margin-right: 93px;
+  }
+
+  &--footer_margin {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+
+  &__header-accent {
+    color: #000;
+  }
+
+  &__footer-accent {
+    color: #fff;
+  }
+}
+
+.main-button {
+  padding: 10px 16px;
+  min-width: 200px;
+
+  background-color: $accent-color;
+  color: $white-text-color;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+
+  cursor: pointer;
+  border-width: 0;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  transition: background-color $transition-timing $transition-function;
+
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+  }
+}
+
+.main-button__footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-button__footer-icon {
+  margin-left: 10px;
 }

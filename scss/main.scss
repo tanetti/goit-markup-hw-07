@@ -1,4 +1,14 @@
 @import './utils/variables';
-@import './utils/placeholders';
 @import './utils/global';
+@import './utils/placeholders';
+@import './utils/visually-hidden';
 @import './components/shared';
+@import './components/page-header';
+@import './components/hero';
+@import './components/modal-backdrop';
+@import './components/modal';
+@import './components/features';
+@import './components/work';
+@import './components/team';
+
+@import './components/page-footer';
